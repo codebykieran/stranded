@@ -9,17 +9,25 @@ Getting a haircut or managing appointments as a barber can be unnecessarily comp
 ## Features
 Stranded is essentially split into two sides: one for barbers and one for customers. Key features include:
 
-- User registration for both barbers and clients
-- Barber profile creation and management
-- Customer profile creation and management
-- Calendar view for barbers and clients
-- Chat system with barbers. Both barbers and clients are able to attach images for inspiration prior to appointment.
-- Section to learn popular terminology for certain styles/haircuts/ styling tips, common misconceptions etc.
-- Notifications for upcoming appointments and changes
-- Ratings and reviews for barbers
-- Search and filter barbers by location, specialty, and availability
+Application Wide:
+- Profile creation and management
 - Secure authentication and data handling
 - Responsive mobile-first design
+- Calendar Functionality for appointment planning, leaving notes etc.
+- Chat system; communication bewteen barbers and clients.
+
+Barber Specific:
+- Learning portal 
+- Personal Journal 
+- Ability to block troublesome clients
+- Events section? Potential to add posts when models are needed for shows, social media pushes etc.
+
+Client Specific:
+
+- Area for learning terminology, commmon hair misconceptions, etiquette 
+- Ability to leave ratings and reviews for barbers
+- Search and filter barbers by location, specialty, and availability
+
 
 ## Tech Stack
 - Frontend: React Native
@@ -27,6 +35,9 @@ Stranded is essentially split into two sides: one for barbers and one for custom
 - Database: MongoDB
 - Authentication: JWT
 - Styling: Tailwind CSS
+- Deployment:
+    Local Setup: localhost
+    Live Seyup: Heroku server
 
 ## Additional Tech Suggestions
 Based on the context, you may also consider:
@@ -35,16 +46,6 @@ Based on the context, you may also consider:
 - Maps/location: Google Maps API or Mapbox for finding nearby barbers
 - Payments: Stripe or PayPal integration for in-app payments
 - Deployment: Docker for containerization, AWS/GCP/Azure for hosting
-
-## Testing
-
-the app should be testable both locally through localhost as well as on a live server, preferably using a service like Heroku.
-
-
-## Roadmap
-- MVP: User registration, profile management, basic appointment booking
-- v1.0: Calendar view, notifications, ratings/reviews, search/filter
-- v2.0: Real-time updates, payments, advanced analytics
 
 ## License
 MIT License
